@@ -1,0 +1,14 @@
+{
+  "name": "MAX6675 Driver",
+  "version": "1.0.0",
+  "description": "ESP-IDF driver for MAX6675 thermocouple converter",
+  "keywords": ["esp-idf", "esp32", "max6675", "spi", "sensor"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<you>/max6675-driver.git"
+  },
+  "frameworks": ["espidf"],
+  "platforms": ["espressif32"],
+  "build": { "includeDir": "include", "srcDir": "src" },
+  "license": "MIT"
+}
