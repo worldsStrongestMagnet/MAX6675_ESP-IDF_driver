@@ -9,6 +9,6 @@
   },
   "frameworks": ["espidf"],
   "platforms": ["espressif32"],
-  "build": { "includeDir": "include", "srcDir": "src" },
+  "build": { "includeDir": "lib", "srcDir": "lib" },
   "license": "MIT"
 }
