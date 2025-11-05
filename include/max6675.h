@@ -87,7 +87,7 @@ static inline max6675_err_t max6675_parse_raw(uint16_t raw, uint16_t *temp12, bo
     return MAX6675_OK;
 }
 
-static inline float max8875_temp12_to_c(uint16_t temp12){
+static inline float max6675_temp12_to_c(uint16_t temp12){
     return (float) temp12 * 0.25f;
 }
 
